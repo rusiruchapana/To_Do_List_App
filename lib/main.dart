@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list_/screens/todo_screen.dart';
+import 'package:to_do_list_/widgets/task_item.dart';
 
 void main() => runApp(const ToDoListApp());
 
