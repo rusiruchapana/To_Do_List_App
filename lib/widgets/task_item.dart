@@ -14,7 +14,7 @@ class TaskItem extends StatelessWidget {
     return ListTile(
       leading: Checkbox(value: false, onChanged: onToggleComplete),
       title: const Text(
-        "Test",
+        "A test To Do Task.",
       ),
       trailing: IconButton(
           icon: Icon(Icons.delete, color: Colors.red), onPressed: onDelete),
